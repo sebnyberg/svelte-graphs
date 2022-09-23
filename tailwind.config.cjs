@@ -4,7 +4,19 @@ module.exports = {
     './src/**/*.{html,js,svelte,ts}'
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        main: {
+          100: '#254451',
+        }
+      }
+    },
+    fontFamily: {
+      'sans': ['"Roboto Condensed"'],
+      // 'serif': ['"Comic Sans"'],
+      // 'display': ['"Comic Sans"'],
+      // 'body': ['"Open Sans"'],
+    }
   },
   plugins: [],
 }

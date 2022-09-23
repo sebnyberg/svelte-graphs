@@ -37,6 +37,8 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"@fontsource/fira-mono": "^4.5.0"
+		"@fontsource/fira-mono": "^4.5.0",
+		"highcharts": "^10.2.1",
+		"svelte-frappe-charts": "^1.9.2"
 	}
 }
